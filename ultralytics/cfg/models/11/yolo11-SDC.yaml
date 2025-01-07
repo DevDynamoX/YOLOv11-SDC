@@ -24,7 +24,7 @@ backbone:
   - [-1, 2, C3k2_DRB, [512, True]]
   - [-1, 1, Conv, [1024, 3, 2]] # 7-P5/32
   - [-1, 2, C3k2_DRB, [1024, True]]
-  - [-1, 1, SF, [1024, 32]] #9 新增 ModifiedSEAttention
+  - [-1, 1, SF, [1024, 32]] #9
   - [-1, 2, C2PSA, [1024]] # 10
 
 # YOLO11n head
